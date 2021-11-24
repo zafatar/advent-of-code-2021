@@ -1,14 +1,13 @@
 [[source]]
-name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
-
-[dev-packages]
-flake8 = "*"
-autopep8 = "*"
-rope = "*"
+name = "pypi"
 
 [packages]
+flake8 = ">=3.9.2"
+autopep8 = ">=1.5.7"
+
+[dev-packages]
 
 [requires]
-python_version = "3.7"
+python_version = "3.9"
